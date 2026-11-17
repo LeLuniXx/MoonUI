@@ -1,0 +1,9 @@
+<Application x:Class="MoonUI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Die spezifische Hintergrundfarbe nur für die Dynamic Island -->
+        <SolidColorBrush x:Key="IslandBackgroundBrush" Color="#FF111215"/>
+    </Application.Resources>
+</Application>
